@@ -120,4 +120,6 @@ dependencies {
     implementation("com.github.skydoves:sandwich:1.2.1")
 //    debugImplementation("com.github.ChuckerTeam.Chucker:library:3.5.2")
 //    releaseImplementation("com.github.ChuckerTeam.Chucker:library-no-op:3.5.2")
+    testImplementation(kotlin("test"))
+    testImplementation("io.mockk:mockk:1.11.0")
 }
